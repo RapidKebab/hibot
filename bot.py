@@ -8,7 +8,7 @@ import discord
 
 
 #load_dotenv()
-token = os.environ.get('DISCORD_TOKEN')
+token = os.environ.get('DISCORD_TOKEN')#os.getenv('DISCORD_TOKEN')
 
 client = discord.Client()
 
